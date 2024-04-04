@@ -1,0 +1,65 @@
+a:hover {
+    color: lightblue;
+  }
+a {
+    color: white;
+    text-decoration: none;
+            
+}
+.title span {
+	display: inline;
+	background-color: #e60000db;
+	padding: 10px 10px; 
+	color: #FFFFFF;
+	font-size: 20px;
+    border-radius: 10px;
+    
+  }
+  .title {
+    text-align: center; 
+    margin-top: 100px;
+}
+
+.logo {
+    font-size: 18px;
+    color: #ffffffde;
+    position: absolute; 
+    bottom: 40px; 
+    right: 35px; 
+    text-shadow: 1px 1px 1px #000;
+}
+#idYouTubeIconHtml {
+    background: red;
+    border-radius: 25%/12%;
+    color: white;
+    cursor: pointer;
+    height: 50px;
+    font-size: 40px;
+    line-height: 40px;
+    position: absolute; 
+    bottom: 50px; 
+    left: 50px; 
+    text-align: center;
+    text-indent: 10%;
+    width: 65px;
+}
+
+#idYouTubeIconHtml:before {
+    background: inherit;
+    border-radius: 5%/30%;
+    bottom: 10%;
+    content: '\25B6';
+    left: -5%;
+    position: absolute;
+    right: -5%;
+    top: 10%;
+}
+
+#idYouTubeIconHtml:hover {
+    background: #f66;
+}
+
+.logo1 {
+        text-shadow: 1px 1px 1px #ff0000;
+}
+
